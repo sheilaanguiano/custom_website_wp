@@ -249,6 +249,17 @@ section {
     padding: 0 8px;
 }
 
+.card-meta-blogpost {
+    color: #333;
+    font-size: 14px;
+    padding: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-meta-blogpost a {
+    color: #333;
+}
+
 /*   Button READ MORE */
 .btn-readmore {
     padding: 8px 24px;
@@ -378,7 +389,7 @@ Blog List Page
 .pagination a:hover {
     text-decoration: none;
     border-top: 3px solid black;
-
+`
 }
 
 /*********************************  
@@ -412,7 +423,11 @@ SINGLE BLOGPOST
     box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
 }
 
-
+/*  Comments Section  */
+#comments-section {
+    border-top: 2px solid #eee;
+    padding: 8px;
+}
 
 /************************************************
    MEDIA QUERIES
